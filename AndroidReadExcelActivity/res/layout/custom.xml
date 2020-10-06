@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="170dp" 
+    android:layout_alignParentBottom="true" 
+    android:layout_centerHorizontal="true" 
+    android:background="#FFFFFF">
+    
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="10"
+        android:textSize="15dip"
+    	android:textColor="#ff00ffff"
+    	android:textStyle="bold"
+    	android:padding="5px"
+        android:layout_toRightOf="@+id/image"/>
+ 
+     <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="90px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+	    android:layout_marginLeft="0dip"
+        android:text=" Ok "
+        />
+ 
+</RelativeLayout>
+

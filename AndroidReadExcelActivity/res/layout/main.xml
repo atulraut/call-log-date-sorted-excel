@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content"
+ android:layout_width="match_parent" android:orientation="horizontal">
+ <TextView
+    	android:id="@+id/txtId0" 
+        android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:textSize="22dp"
+        android:text="Sort Call History to XL" />
+ </LinearLayout>
+
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content"
+ android:layout_width="match_parent" android:orientation="horizontal">
+ <TextView
+        android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:text="" />
+ </LinearLayout>
+  
+  <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content"
+ android:layout_width="match_parent" android:orientation="horizontal">
+ <TextView
+        android:layout_height="wrap_content" android:layout_width="200dp"
+        android:textSize="18dp"
+        android:text="Start Date" />
+ </LinearLayout>
+ 
+ <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content"
+ android:layout_width="match_parent" android:orientation="horizontal">
+    <Button android:id="@+id/buttonStartDate" android:text="Select Start Date"
+ android:layout_height="wrap_content" android:layout_width="fill_parent">   
+ </Button>
+ </LinearLayout>
+ 
+ 
+ <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content"
+ android:layout_width="match_parent" android:orientation="horizontal">
+ <TextView
+        android:layout_height="wrap_content" android:layout_width="200dp"
+        android:textSize="18dp"
+        android:text="End Date" />
+ </LinearLayout>
+ 
+ <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content"
+ android:layout_width="match_parent" android:orientation="horizontal">
+    <Button android:id="@+id/buttonEndDate" android:text="Select End Date"
+ android:layout_height="wrap_content" android:layout_width="fill_parent">   
+ </Button>
+ </LinearLayout>
+ 
+ 
+<LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content"
+ android:layout_width="match_parent" android:orientation="horizontal">
+ <Button android:id="@+id/writeExcel" android:text="Write To Excel Sheet"
+ android:layout_height="wrap_content" android:layout_width="fill_parent">
+ </Button> 
+</LinearLayout>
+
+<LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content"
+ android:layout_width="match_parent" android:orientation="horizontal">
+ <Button android:id="@+id/readExcel" android:text="Read Excel /sdcard/reram/"
+ android:layout_height="wrap_content" android:layout_width="fill_parent">
+ </Button> 
+</LinearLayout>
+
+
+<LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content"
+ android:layout_width="match_parent" android:orientation="horizontal">
+ <Button android:id="@+id/sendMail" android:text="e-Mail ExcelSheet"
+ android:layout_height="wrap_content" android:layout_width="fill_parent">
+ </Button> 
+</LinearLayout>
+
+<LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content"
+ android:layout_width="match_parent" android:orientation="horizontal">
+ <Button android:id="@+id/aboutId" android:text="About"
+ android:layout_height="fill_parent" android:layout_width="fill_parent">
+ </Button> 
+</LinearLayout>
+
+</LinearLayout>
